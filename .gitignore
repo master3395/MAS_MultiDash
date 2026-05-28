@@ -1,0 +1,5 @@
+data/files/*
+!data/files/.gitkeep
+data/*.json
+*.log
+.DS_Store

@@ -1,0 +1,24 @@
+.mas-md-app { font-family: inherit; }
+.mas-md-grid { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
+.mas-md-panel { flex: 1 1 280px; border: 1px solid #ccc; border-radius: 6px; padding: 12px; background: #fff; }
+.mas-md-panel-wide { flex: 2 1 400px; }
+.mas-md-presence-list { list-style: none; margin: 0; padding: 0; }
+.mas-md-presence-list li { padding: 6px 0; border-bottom: 1px solid #eee; }
+.mas-md-presence-list .status-idle { opacity: 0.65; }
+.mas-md-presence-list .typing-badge { color: #0a6; font-size: 11px; margin-left: 6px; }
+.mas-md-activity-feed { list-style: none; margin: 0; padding: 0; max-height: 280px; overflow-y: auto; }
+.mas-md-activity-feed li { padding: 4px 0; font-size: 12px; border-bottom: 1px solid #f0f0f0; }
+.mas-md-editor { width: 100%; box-sizing: border-box; font-family: monospace; font-size: 13px; }
+.mas-md-typing { min-height: 18px; font-size: 12px; color: #666; font-style: italic; }
+.mas-md-conflict { background: #fff3cd; border: 1px solid #ffc107; padding: 10px; margin-top: 8px; border-radius: 4px; }
+.mas-md-hint { font-size: 12px; color: #666; }
+.mas-md-file-layout { display: flex; gap: 16px; flex-wrap: wrap; }
+.mas-md-file-sidebar { flex: 0 0 240px; border: 1px solid #ccc; padding: 10px; border-radius: 6px; }
+.mas-md-file-main { flex: 1 1 400px; min-width: 300px; }
+.mas-md-presence-sidebar { flex: 0 0 200px; border: 1px solid #ccc; padding: 10px; border-radius: 6px; margin-top: 12px; }
+.mas-md-file-list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 320px; overflow-y: auto; }
+.mas-md-file-list li { padding: 4px 6px; cursor: pointer; border-radius: 3px; }
+.mas-md-file-list li:hover { background: #eef; }
+.mas-md-file-list li.dir { font-weight: bold; }
+.mas-md-breadcrumb { font-size: 11px; margin: 8px 0; word-break: break-all; }
+.mas-md-meta { font-size: 11px; color: #888; margin-left: 8px; }
